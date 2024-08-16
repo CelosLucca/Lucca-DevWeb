@@ -1,3 +1,10 @@
+Trabalho dia 16/08/2024
+
+Lucca Barcelos Cravo
+
+Desenlvolvimento web / segundo período / 2024
+
+
 Git - https://git-scm.com/
 
 Sobre o Git: https://docs.github.com/pt/get-started/using-git/about-git
