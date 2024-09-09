@@ -1,4 +1,4 @@
-let variavel = 10
+document.getElementsByTagName("h1")[0].style.fontSize = "6vw";let variavel = 10
 console.log('conta', 10 + ++variavel);
 console.log('variavel', variavel);
 
@@ -39,3 +39,38 @@ const setinha = (entrada) => {
   return entrada + 33;
 }
 const setinha2 = (entrada) => entrada + 34;
+
+const meuArray = [21, 34, 'Lucca', [32, 45]];
+
+var minhaGlobal = 34;
+
+function minhaNovissimaFuncao(){
+  let minhaGlobal = 23
+  return minhaGlobal
+}
+
+function minhaFuncaoMaior(entrada){
+  let r;
+  if (entrada % 2 === 0){
+        r = 'par';
+  } else {
+    r = 'impar'
+  }
+  return r;
+}
+
+meuArray.forEach((el) => console.log(el))
+
+const funcImprime = (ele, indice) => console.log("indice", indice, ":", ele)
+
+meuArray.forEach(funcImprime)
+
+function minhaFuncaoMaior2(entrada){
+  const r = '';
+  if (entrada % 2 === 0){
+        r = 'par';
+  } else {
+    r = 'impar'
+  }
+  return r;
+}
