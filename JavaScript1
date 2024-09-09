@@ -1,0 +1,41 @@
+let variavel = 10
+console.log('conta', 10 + ++variavel);
+console.log('variavel', variavel);
+
+let resultado;
+const preço = 10;
+
+
+/*if (preço < 40){
+  console.log("o livro é barato");
+} else {
+  console.log("o livro não é barato");
+}*/
+resultado = preço < 40 ? "o livro é barato" : "o livro não é barato";
+
+console.log(resultado);
+
+let x = 3;
+
+console.log(x =='3');
+console.log(x > 3);
+
+console.log(true)
+
+let meuObjeto = {
+  nome : 'Lucca',
+  idade : 18
+}
+
+function minhaFuncao(entrada){
+  return entrada +1;
+}
+
+const outraFuncao = function(entrada){
+  return entrada + 22;
+}
+
+const setinha = (entrada) => {
+  return entrada + 33;
+}
+const setinha2 = (entrada) => entrada + 34;
